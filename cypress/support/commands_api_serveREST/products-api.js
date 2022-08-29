@@ -1,11 +1,8 @@
 /// <reference types="cypress" />
 
-const { URLS_PRODUCT } = require('../../shared/urls-api-serverest');
-
 const FAKER = require('faker-br');
 
-Cypress.Commands.add('GETProducts', () => {
-    const uri = URLS_PRODUCT.getProducts;
+Cypress.Commands.add('GETProducts', (uri) => {
     cy.request({
         method: 'GET',
         url: uri,
