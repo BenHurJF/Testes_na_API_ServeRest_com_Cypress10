@@ -2,8 +2,8 @@
 
 Cypress.Commands.add('obterTokenServeREST', () => {
     const BODY = {
-        email: "fulano@qa.com",
-        password: "teste"
+        email: Cypress.env("email"),
+        password: Cypress.env("password")
     }
     cy.request({
         method: 'POST',

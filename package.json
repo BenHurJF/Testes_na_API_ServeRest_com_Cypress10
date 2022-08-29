@@ -1,0 +1,22 @@
+{
+  "name": "projeto-serverest_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenHurJF/Testes-API_ServeRest-cypress-10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenHurJF/Testes-API_ServeRest-cypress-10/issues"
+  },
+  "homepage": "https://github.com/BenHurJF/Testes-API_ServeRest-cypress-10#readme"
+}
