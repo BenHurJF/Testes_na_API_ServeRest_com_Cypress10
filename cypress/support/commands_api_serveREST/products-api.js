@@ -15,13 +15,13 @@ Cypress.Commands.add('GETProducts', () => {
 })
 
 Cypress.Commands.add('constructBody', () => {
-     let body = {
+    let body = {
         "nome": 'product - ' + FAKER.commerce.productName(),
         "preco": FAKER.commerce.price(),
         "descricao": FAKER.random.words(4),
         "quantidade": FAKER.random.number(400)
     }
-     return body
+    return body
 })
 
 Cypress.Commands.add('POSTProduct', (uri, body) => {
@@ -30,7 +30,7 @@ Cypress.Commands.add('POSTProduct', (uri, body) => {
         cy.request({
             method: 'POST',
             url: uri,
-            headers: {authorization: TOKEN, 'Content-Type': 'application/json'},
+            headers: { authorization: TOKEN, 'Content-Type': 'application/json' },
             body: body,
             failOnStatusCode: false
         })
