@@ -1,7 +1,12 @@
-# Testes-API_ServeRest-cypress-10
+@ Testes-API_ServeRest-cypress-10
 
-Testes da API serveRest nos seguintes recursos
-# Produtos
-# Carrinhos
+@ Automação de testes na API serveRest
+@ Recursos automatizados:
+- Produtos
+- Carrinhos
 
-# Para uso: npm i e após npx cypress open
+@ Para install dependencies e executar o script de automação utilize:
+- npm install
+- npx serverest (Subir servidor local do Swagger)
+- npx cypress open (Interface gráfica Cypress)
+- npx cypress run (Headless)
