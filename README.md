@@ -2,9 +2,8 @@
 
 - Recursos automatizados:
 
-. Produtos
-
-. Carrinhos
+- Produtos
+- Carrinhos
 
 # Para utilizar o projeto:
 - npm install
